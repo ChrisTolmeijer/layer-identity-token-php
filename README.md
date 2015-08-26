@@ -2,6 +2,8 @@
 
 The code in this folder provides a PHP library for generating a Layer Identity Token.
 
+Available on [Packagist](https://packagist.org/packages/layerhq/layer-identity-token-php).
+
 ### Installation
 
 Add Layer Identity Token Provider to your project using Composer
