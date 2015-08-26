@@ -1,0 +1,12 @@
+{
+  "name": "LayerIdentityTokenProviderPHP",
+  "description": "Sample Backend for Layer Authentication in PHP",
+  "website": "http://layer.com",
+  "repository": "https://github.com/layerhq/layer-identity-token-php",
+  "success_url": "/",
+  "env": {
+    "LAYER_PROVIDER_ID": "layer:///providers/...",
+    "LAYER_PRIVATE_KEY_ID": "layer:///keys/...",
+    "LAYER_PRIVATE_KEY": "-----BEGIN RSA PRIVATE KEY-----\n..."
+  }
+}

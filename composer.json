@@ -1,0 +1,22 @@
+{
+  "name": "layerhq/layer-identity-token-php",
+  "description": "Layer PHP Identity Token Provider",
+  "homepage": "https://github.com/layerhq/layer-identity-token-php",
+  "license": "Apache-2.0",
+  "keywords": ["layer","JWT"],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Abir Majumdar"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+        "Layer": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "namshi/jose": "^6.0"
+  }
+}

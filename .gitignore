@@ -1,0 +1,4 @@
+vendor
+# composer.lock is required if you are deploying to Heroku
+#composer.lock
+.DS_Store
