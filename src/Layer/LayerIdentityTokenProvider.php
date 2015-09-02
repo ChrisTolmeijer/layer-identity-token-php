@@ -1,14 +1,8 @@
 <?php
 
-
 namespace Layer;
 
 use Namshi\JOSE\SimpleJWS;
-
-// SimpleJWS requires timezeone to be set
-if (!ini_get('date.timezone')) {
-    date_default_timezone_set('GMT');
-}
 
 /**
  * Layer Identity Token Provider.
@@ -31,12 +25,14 @@ class LayerIdentityTokenProvider implements LayerIdentityTokenProviderInterface
     /**
      * Constructor.
      *
-     * @param string $providerID
-     * @param string $keyID
-     * @param string $privateKey
      */
     public function __construct()
     {
+        // SimpleJWS requires timezeone to be set
+        if (!ini_get('date.timezone')) {
+            date_default_timezone_set('GMT');
+        }
+
         $providerID = getenv('LAYER_PROVIDER_ID');
         $keyID      = getenv('LAYER_PRIVATE_KEY_ID');
         $privateKey = getenv('LAYER_PRIVATE_KEY');

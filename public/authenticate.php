@@ -9,7 +9,7 @@ $layerIdentityTokenProvider = new \Layer\LayerIdentityTokenProvider();
 //$layerIdentityTokenProvider->setKeyID("layer:///keys/...");
 //$layerIdentityTokenProvider->setPrivateKey("----BEGIN RSA PRIVATE KEY....");
 $userID = $_POST["user_id"];
-$nonce =  $_POST["nonce"];
+$nonce = $_POST["nonce"];
 
 $identityToken = $layerIdentityTokenProvider->generateIdentityToken($userID, $nonce);
 print '{"identity_token":"'.$identityToken.'"}';
