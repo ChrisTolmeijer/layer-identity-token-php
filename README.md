@@ -2,7 +2,7 @@
 [![Build Status](http://img.shields.io/travis/layerhq/layer-identity-token-php.svg)](https://travis-ci.org/layerhq/layer-identity-token-php)
 [![Packagist version](https://img.shields.io/packagist/v/layerhq/layer-identity-token-php.svg)](https://packagist.org/packages/layerhq/layer-identity-token-php)
 
-The code in this folder provides a PHP library for generating a Layer Identity Token.
+The code in this folder provides a PHP library for generating a Layer Identity Token. The PHP library supports php 5.4+.
 
 Available on [Packagist](https://packagist.org/packages/layerhq/layer-identity-token-php).
 
